@@ -18,6 +18,10 @@ public class Coordinates {
     return latitude;
   }
 
+  public Float getLatitudeFloat() {
+    return new Float(latitude);
+  }
+  
   public double getLongitude() {
     return longitude;
   }

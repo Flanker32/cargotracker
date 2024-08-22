@@ -4,6 +4,7 @@ target
 .factorypath
 .classpath
 .project
+.autodev/
 *.iml
 .idea/
 .vscode/
