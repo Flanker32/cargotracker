@@ -300,7 +300,7 @@ public class Delivery implements Serializable {
         return NO_ACTIVITY;
 
       case RECEIVE:
-        Leg firstLeg = itinerary.getLegs().iterator().next();
+        Leg firstLeg = itinerary.getLegs().getFirst();
 
         return new HandlingActivity(
             HandlingEvent.Type.LOAD, firstLeg.getLoadLocation(), firstLeg.getVoyage());
