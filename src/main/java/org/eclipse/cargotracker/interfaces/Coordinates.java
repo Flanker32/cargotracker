@@ -19,7 +19,7 @@ public class Coordinates {
   }
 
   public Float getLatitudeFloat() {
-    return Float.valueOf(latitude);
+    return Float.valueOf((float)latitude);
   }
   
   public double getLongitude() {
