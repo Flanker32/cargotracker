@@ -16,3 +16,5 @@ data
 .DS_Store
 cargo-tracker-test-data
 nbactions.xml
+
+.autodev
